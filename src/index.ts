@@ -128,11 +128,19 @@ themes.forEach(theme => {
         scope: [
           "entity.name.variable",
           "entity.other.attribute-name",
-          "keyword.operator",
         ],
         settings: {
           foreground: theme.colors.variable,
         },
+      },
+      {
+        name: "Operators",
+        scope: [
+          "keyword.operator",
+        ],
+        settings: {
+          foreground: theme.colors.punctuation,
+        }
       },
       {
         name: "C# doc comment tags and attribute names",
