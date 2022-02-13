@@ -1,22 +1,29 @@
 export default {
-  name: "rider-dark",
+  name: "rider-melon-dark",
   type: "dark",
-  ui: {
-    uiText: "#B1ADAD",
+  editor: {
+    foreground: "#D0D0D0",
+    background: "#262626",
+    error: "#4A2421",
+    warning: "#F5D86A",
   },
   colors: {
-    comment: "#85C46C",
-    background: "#262626",
-    foreground: "#D0D0D0",
-
-    blue: "#6C95EB",
-    orange: "#C9A26D",
-    green: "#39CC8F",
-    violet: "#ED94C0",
-    magenta: "#C191FF",
-    cyan: "#66C3CC",
-
-    yellow: "#F5D86A",
-    red: "#FF5647",
-  },
+    comment: "#BDBDBD",
+    class: "#C9A26D",
+    function: "#C191FF",
+    functionCall: "#C191FF",
+    identifier: "#BDBDBD",
+    boolean: "#6C95EB",
+    keyword: "#6C95EB",
+    otherKeyword: "#6C95EB",
+    string: "#66C3CC",
+    stringEscape: "#ED94C0",
+    punctuation: "#BDBDBD",
+    variable: "#ADEB96",
+    parameter: "#ADEB96",
+    number: "#ED94C0",
+    modifier: "#6C95EB",
+    constants: "#ADEB96",
+    property: "#85C46C",
+  }
 };

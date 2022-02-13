@@ -51,9 +51,14 @@
         "path": "./build/rider-light.json"
       },
       {
-        "label": "Resharper Dark",
+        "label": "Rider Melon Dark",
         "uiTheme": "vs-dark",
-        "path": "./build/resharper-dark.json"
+        "path": "./build/rider-melon-dark.json"
+      },
+      {
+        "label": "Rider Melon Light",
+        "uiTheme": "vs",
+        "path": "./build/rider-melon-light.json"
       }
     ]
   },
