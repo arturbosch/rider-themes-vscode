@@ -1,5 +1,5 @@
 export default {
-  name: "rider-melon-dark",
+  name: "rider-dark",
   type: "dark",
   editor: {
     foreground: "#D0D0D0",
