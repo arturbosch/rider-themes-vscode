@@ -2,7 +2,7 @@
   "name": "rider-theme",
   "displayName": "Rider IDE Themes",
   "publisher": "muhammad-sammy",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "license": "Apache-2.0",
   "author": "Muhammad Sammy [@muhammadsammy]",
   "homepage": "https://github.com/muhammadsammy/rider-themes-vscode",
@@ -21,8 +21,7 @@
     "release:major": "git pull && standard-version --release-as major && git push --follow-tags"
   },
   "engines": {
-    "node": "^14.0.0",
-    "vscode": "^1.40.0"
+    "vscode": "^1.52.0"
   },
   "categories": [
     "Themes",
@@ -65,12 +64,10 @@
   "devDependencies": {
     "@moxer/vscode-theme-generator": "1.20.0",
     "@types/fs-extra": "9.0.1",
-    "@types/node": "^14.10.2",
+    "@types/node": "^12.20.0",
     "fs-extra": "9.0.1",
     "rimraf": "3.0.2",
-    "typescript": "4.0.2"
-  },
-  "dependencies": {
-    "standard-version": "9.0.0"
+    "standard-version": "^9.3.2",
+    "typescript": "4.4.3"
   }
 }
